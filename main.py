@@ -3,7 +3,7 @@ import os
 import cv2
 
 if len(sys.argv) != 3:
-    print("Usage: python3 <rollno>.py <path/to/slides/directory> <path/to/frames/directory>")
+    print("Usage: python3 main.py <path/to/slides/directory> <path/to/frames/directory>")
     sys.exit(1)
 
 args = sys.argv
